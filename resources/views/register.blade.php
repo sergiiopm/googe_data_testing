@@ -11,7 +11,7 @@
     
 
     <div class="container">
-        <h1 class="mt-5">Testing Google Data</h1>
+        <h1 class="mt-5">Testing Google Data & GIT</h1>
 
         <form action="/register" class="w-50" method="post">
           @csrf
