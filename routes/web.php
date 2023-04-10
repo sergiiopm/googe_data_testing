@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PlaceController;
 use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +22,7 @@ Route::get('/', function () {
 Route::get('/register', [RegisterController::class, 'index']);
 
 Route::post('/register', [RegisterController::class, 'store']);
+
+Route::get('/places', [PlaceController::class, 'index']);
+
+Route::post('/places', [PlaceController::class, 'store']);
